@@ -1,0 +1,190 @@
+java/c++  try throw catch
+python try raise except
+
+
+wtf :: python does not support inline assignment   if(num=arg):  not supported in python , but supported in c
+
+every module is an object and they have a special property __name__   
+__name__ is the filename of the module , BUT IF THE PROGRAM IS CALLED AT FIRST WITHOUT IMPORTS , 
+then __name__ is __main__
+
+
+date types ::
+
+Booleans
+Numbers , integer -float-fraction-complex number
+
+Strings
+Bytes and byte arrays
+Lists
+Tuples
+Sets
+Dictionaries -- KEYS SHOULD BE IMMUTABLE
+
+
+Booleans can be treated as numbers  
+True =1 , False = 0
+
+"" ZERO VALUES ARE FALSE, NON ZERO ARE TRUE ""
+
+True+True = 2
+
+type()
+and 
+isinstance()
+
+int() will truncate, not round
+
+
+/   => always floating division
+//  , for positive truncate  for negative rounding down
+
+
+fractions module
+
+
+
+Lists :::
+
+lists ['a','b','c']
+
+slicing of list , 
+
+lists can be added by .
+
+adding two lists , 
+append method    append adds only 1 element to teh list , if a list is added , a list items stays as  1 element
+insert method
+extend mehtod    all memebers are added
+
+
+list.count('item')
+list.index('item')
+'item' in list
+
+to remove from a list
+
+del list['index']
+list.remove('value')
+list.pop()
+list.pop(4)
+
+list.shift()
+
+
+lists can also be used as boolen , any list with at least an element is evaluated as True
+
+''' PYTHON 3 , DAY 3 , PAGE NO:- 70 chapter :- TUPLES
+In lists, square bracket is used , whereas in teh case of tuple , parenthesis are used () 
+tuples are immutable
+
+Tuples are same as Lists BUT THEY CANNOT BE CHANGED , 
+TUPLES HAVE NO APPEND,POP,REMOVE,ADD METHODS LIKE THAT OF LISTS ,, 
+Tuples can be used for multiple assignments ,  if multiple  values are returned from a function , then they can will
+be saved as  a tuple or individual parameters can be given to save them.. 
+/// gotchaa , teh LHS variables should be equal to the number of values returned or should always be 1
+
+SETS ARE ANOTHER DATA TYPES , their ordering is not determinable , union/intersection can be performed.
+sets are implemented as class
+sets can be created from list/tuple  with set(<name>) method.
+{} doesnt create empty set but creates an empty dictionary.
+
+items can be added to the sets with add or update method,
+add takes a single item to add to the set , 
+update , takes a single SET to add its elements to the set.
+
+items can be removed by the methods discard , remove , pop
+REMEMBER , sets have no specific ordering
+
+in set operations , symmetric_difference() , union() , intersection() are symmetric i.e. 
+a.symmetric_difference(b) equals b.symmetric_difference(a) and so on
+
+DICTIONARY IS ANOHTER DATA TYPE
+similar to set, but uses a key-value pair    , list is UNORDERED SET OF KEY/VALUE PAIR   , {}
+
+### OS MODULE  ###
+os module takes care of operating system things.
+os.path.join()    used to construct os path names .. no need to worry of slashes
+os.path.split() , splits a path into dir and file
+os.path.splitext() , splits a filename into filename and extension, tuple returned
+
+
+### GLOB MODULE ###
+glob modules, to use wildcard characters for file/directory things
+
+
+os.stat   ,, shows metadata about the file ,
+
+tiem.localtime , to convert unix time to local time
+
+os.stat('file').st_size ,,, // returns the file size in bytes
+
+os.path.realpath('fiel')   // gives the absolute path for a file
+os.path.relpath('file1') // prints the RELATIVE path
+
+
+UTF - 32 || UTF - 16 || UTF - 8 
+
+*** ALL STRINGS ARE A SEQUENCE OF UNICODE CHARACTERS ***
+
+sys.modules is a dictionary of all the imported modules , keys are the strings of module names and values are the module object
+
+In an Item-Key , if the starting is number then it is treated as a number  everything else is treated as a STRING
+
+
+Bytes are bytes , characters are characters , strings are strings..
+
+to declare a byte , 
+byte1=b'abcd\xaa'
+
+immutable byte cna be converted to mutable bytearray using bytearray() method
+
+
+byte objects have decode method to convert to string,
+string objects have encode method to return a byte
+
+
+
+ROMAN NUMBERS :-
+
+I = 1
+V = 5
+X = 10
+L = 50
+C = 100
+D = 500
+M = 1000
+
+
+VARIABLE PASSING IN PYTHON, HOW ARE THEY PASSED , BY VALUE OR BY REFERENCE OR CALL-BY-OBJECT
+
+
+REGULAR EXPRESSIONS AND CLOSURE/GENERATORS
+
+re.sub('[abc]','o','Mark')   is used to replace the 'a' in Mark by 'o' ,, this replaces all instance of a or b or c
+so, maark => moork
+
+
+
+PRINT LOCALS()  , PRINT GLOBALS()
+
+
+
+
+LIST OF PATTERNS \\\\ PYTHON
+
+CLOSURES == USING VALUES OF OUTSIDE PARAMETERS INSIDE A DYNAMIC FUNCTION 
+
+
+********** 
+String is itself an iterator , giving out character on each iteration
+and join() method takes an iterator as an argument
+**********
+
+
+
+
+
+
+
+
