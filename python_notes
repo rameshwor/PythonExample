@@ -182,9 +182,7 @@ and join() method takes an iterator as an argument
 **********
 
 
-
-
-
+Generators save space/memory , when using temporary lists just for a loop or sth, do use generators
 
 
 
