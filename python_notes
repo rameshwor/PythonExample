@@ -185,7 +185,18 @@ and join() method takes an iterator as an argument
 Generators save space/memory , when using temporary lists just for a loop or sth, do use generators
 
 
+itertools.permutations()
+itertools.combinations()
 
-$$$$$$$$$$$$$ reached till , special string methods $$$$$$$$$$$$
+itertools.groupby(seq,func)   <= it works only if the sequence is already sorted
+
+translate()  method , takes a string and then a translation table
+translation table consist of      1 byte:1byte     to replace
+
+eval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVILeval() is EVIL
+
+
+
+
 
 
